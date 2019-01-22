@@ -24,7 +24,7 @@ This function should return the Node value the loop begins at
 Remember to write some test specs too!
 
 */
-const findLoop = (linkedlist) {
+const findLoop = (linkedlist) => {
 	let firstNode = linkedlist.head
 	let secondNode = firstNode.next;
 	while(firstNode !== secondNode){
